@@ -10,7 +10,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800" rel="stylesheet">
-        <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script defer src="https://unpkg.com/@alpinejs/ui@3.10.5-beta.8/dist/cdn.min.js"></script>
+        <script defer src="https://unpkg.com/@alpinejs/focus@3.10.5/dist/cdn.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
     </head>
     <body class="bg-gray-50 text-black font-sans antialiased">
         @yield('body')
